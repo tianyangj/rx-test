@@ -1,6 +1,6 @@
 var Rx = require('rxjs/Rx');
 
-console.log('Lesson 01 Starts...')
+console.log('Lesson 01 Starts...');
 
 var stream = Rx.Observable.of(1, 2, 3);
 
@@ -10,4 +10,4 @@ stream.map(x => {
     console.log(x);
 });
 
-console.log('Lesson 01 Ends...')
+console.log('Lesson 01 Ends...');
